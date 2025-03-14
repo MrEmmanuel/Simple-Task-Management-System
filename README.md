@@ -3,3 +3,4 @@ This is simple Task Management System where tasks are stored in a LinkedList and
  
 Fast insertion and deletion - Tasks can be added or removed efficiently.
 Ordered structure - Tasks can be processed in the order they were added. 
+Flexibility - We can navigate between tasks easily (forward and backward).
