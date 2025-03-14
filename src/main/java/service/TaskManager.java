@@ -32,7 +32,7 @@ public class TaskManager {
 	}
 	
 	// Mark a task as completed
-	public void compeleteTask(int index) {
+	public void completeTask(int index) {
 		
 		if(index >=0 && index < taskList.size()) {
 			taskList.get(index).markCompleted();;
