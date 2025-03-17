@@ -55,4 +55,14 @@ public class TaskManager {
 		}
 		
 	}
+
+	public Integer getTaskCount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getTask(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
