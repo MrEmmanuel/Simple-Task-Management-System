@@ -19,7 +19,7 @@ public class Task {
 
 	@Override
 	public String toString() {
-		return (isCompleted ? "[ v ]": "[ ]") + title;
+		return (isCompleted ? "[ v ] ": "[ ] ") + title;
 	}
 	
 	

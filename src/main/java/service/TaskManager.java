@@ -24,9 +24,6 @@ public class TaskManager {
 		
 		if(index >=0 && index < taskList.size()) {
 			Task removedTask = taskList.remove(index);
-			System.out.println("Removed Task: " + removedTask.title);
-		}else {
-			System.out.println("Invalid task index");
 		}
 		
 	}
@@ -36,9 +33,6 @@ public class TaskManager {
 		
 		if(index >=0 && index < taskList.size()) {
 			taskList.get(index).markCompleted();;
-			System.out.println("Task marked as completed: " + taskList.get(index).title);
-		}else {
-			System.out.println("Invalid task index");
 		}
 		
 	}
@@ -57,12 +51,13 @@ public class TaskManager {
 	}
 
 	public Integer getTaskCount() {
-		// TODO Auto-generated method stub
-		return null;
+		return taskList.size();
 	}
 
-	public Object getTask(int i) {
-		// TODO Auto-generated method stub
-		return null;
+	public Object getTask(int index) {
+        if (index >= 0 && index < taskList.size()) {
+            return taskList.get(index).toString();
+        }
+        return null;
 	}
 }

@@ -38,7 +38,7 @@ public class TaskManagerTest {
 	
 	@Test
 	public void testCompleteTask() {
-		taskManager.ddTask("Complete JUnit Test");
+		taskManager.addTask("Complete JUnit Test");
 		taskManager.completeTask(0);
 		assertEquals("[ v ] Complete JUnit Test", taskManager.getTask(0));
 		
